@@ -20,7 +20,7 @@ public class GetUserApplication {
 
 	@Test
 	public void testA() {
-		UserApplication ua = userService.getUserApplication(1);
+		UserApplication ua = userService.getUserApplication(101);
 		System.out.println(ua);
 	}
 

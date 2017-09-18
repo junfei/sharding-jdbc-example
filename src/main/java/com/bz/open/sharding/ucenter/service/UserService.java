@@ -7,6 +7,8 @@ public interface UserService {
 
 	User save(User user);
 
+	public User get(int id);
+
 	UserApplication getUserApplication(int id);
 
 }

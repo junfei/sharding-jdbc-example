@@ -6,4 +6,5 @@ public interface UserDAO {
 
 	User save(User user);
 
+	User getById(int id);
 }
